@@ -1,0 +1,208 @@
+Basic uses of a computer:-
+    browser
+    song -- playonyt or spotify(if exists)
+    video --
+    code
+    calculate --- use google or inbuilt calculator
+    to do list
+    take notes while in class (your voice apart from teacher's voice)
+    open any software 
+    
+BROWSER-
+    choose from keywords
+    if "who is" -- wikipedia
+        "what is" -- wikipedia
+        "how is" -- google
+        "why" --google
+        "find " --google
+    
+SONG - 
+    check for spotify installation:
+        if system == online:
+            check for spotify:
+                if True:
+                    play(song)
+             playonyt(song)
+        else:
+            check song in folder(music)
+            if song_found == True:
+                play(song)
+            else:
+                talk(music not found offline)
+                
+VIDEO:-
+
+    talk(do you want to play offline or online?)
+    if command == "offline":
+        search(video) in videos folder:
+        if video found == True:
+            play(video)
+         else:
+             talk(video not found)
+     else:
+         playonyt(video)
+        
+CALCULATE:-
+ 
+     check for system_calculator:
+         if calculator == True:
+             calculate(command)
+         else:
+             if system.online == True:
+                 google_search(command)
+             else:
+                 talk(system offline and no calculator found)
+      """create a file only for math operations using import math"""
+      
+TO DO LIST:-
+
+    all_lists = {key:[value,value,value]}
+    
+    CREATE A LIST:-
+    
+        command = "create a list"
+        talk(what should I call it?)
+        command = key_name
+        talk(what item should I add?)
+        command = input.split
+        if pause in speaking:
+            talk(do you have anything else to add?)
+            command = input
+            if command == "no":
+                list_creation.done == True
+            else:
+                list_creation_continues
+
+            
+    SHOW LISTS:
+        talk(you have (n) lists. which one to show?)
+        command = input()
+        if command == "show everything":
+            for dict:
+                for key:
+                    values
+        if command in dict.keys:
+            for dict.keys:
+                values
+        else:
+            talk(you dont have that list yet. Do you want to create it?)
+            command = input()
+            if command == "yes":
+                line 60()
+            else:
+                no
+     
+     ADD ITEM TO LIST:-
+         talk(which list should i write in?)
+         command = input()
+         if command in dict.keys:
+                talk(ok, what to add?)
+                command = input()
+                values.add(command)
+         else:
+               line 85()
+               
+     DELETE ITEM:-
+         if dict.keys > 1:
+             talk(which list should i open?)
+             command = input()
+             if command in dict.keys:
+                 talk(what should I remove?)
+                 command = iput()
+                 if command in key.value():
+                     delete(item)
+                 else:
+                     talk("its not in the list")
+             else:
+                  line 85()
+          else:
+              talk(what should I remove?)
+                 command = iput()
+                 if command in key.value():
+                     delete(item)
+                 else:
+                     talk("its not in the list")
+              
+              
+         command = input()
+
+
+
+TAKE NOTES:-
+    if voice detected:
+        start taking notes
+    else:
+        talk(what should I call it?)
+        command=iput()
+    with open(f"{command}.txt","w") as f:
+        f.write(command iput from teacher)
+        talk(is it over?):
+        command - inpt()
+        if command = yes:
+            done = True
+        else:
+            done = False
+            f.write(command from teacher)
+     
+     
+     SHOW NOTES:-
+         if notes>1:
+             talk(which note sir?)
+             command - input()
+             if command = "how many notes do i have"
+                 tell no of notes
+             if command = "show all notes"
+                 tell names of notes
+             if command = folder.notes.names:
+                 talk(content of notes)
+     
+     DELETE NOTES:
+        
+         if notes>1:
+             talk(which note sir?)
+             command - input()
+             if command = "how many notes do i have"
+                 tell no of notes
+             if command = "show all notes"
+                 tell names of notes
+             if command in folder.notes.names:
+                 delete(notes)
+             else:
+                 talk(note not found)
+        else:
+            talk(note not found)
+   
+      ADD NOTE:-
+          
+          line 135
+            
+           
+           
+OPEN SOFTWARE:-
+
+    if "open" in command:
+        command = command.replace("open","")
+        if {list of installed softwares} in command:
+            open.software
+            talk(opening)
+    if last command.replace("open","") in {softwares}:
+    //basically open folders in vscode or pycharm
+    
+    check for dependencies
+    
+SYSTEM DEFAULTS:
+        
+        if command == "reboot", 'shutdown', 'logout':
+            if time is am/pm:
+            open terminal:
+            talk(it was nice serving you, good night or go crush the day) 
+            terminal.input(command)
+        if command == "sleep":
+            talk(good night sir)
+            but system.assistant awake
+            suspends all other tasks
+        if command == "wake up", "hello", "good morning":
+            wakeup from sleep.
+            revokes suspended tasks.
+            
+        
